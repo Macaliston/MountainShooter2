@@ -28,7 +28,7 @@ class Level:
 
 
     def run(self):
-        pygame.mixer_music.load(f'./assets/{self.name}.mp3')
+        pygame.mixer_music.load(f'./asset/{self.name}.mp3')
         pygame.mixer_music.set_volume(0.3)
         pygame.mixer_music.play(-1)
         clock = pygame.time.Clock()
@@ -49,7 +49,7 @@ class Level:
                 if ent.name == 'Player2':
                     self.level_text(14, f'Player2 - Health: {ent.health}| Score: {ent.score}', COLOR_ORANGE, (10, 45))
 
-            # texto a ser printado na tela
+            # texto na tela
             self.level_text(14, f'fps: {clock.get_fps() :.0f}', COLOR_WHITE, (10, WIN_HEIGHT - 35))
             self.level_text(14, f'entidades: {len(self.entity_list)}', COLOR_WHITE, (10, WIN_HEIGHT - 20))
             # Atualizar tela
