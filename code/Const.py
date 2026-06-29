@@ -1,5 +1,5 @@
-# C
 import pygame
+# C
 
 COLOR_ORANGE = (214, 93, 50)
 COLOR_GREEN = (49, 71, 89)

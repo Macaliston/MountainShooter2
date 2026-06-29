@@ -6,7 +6,6 @@ from pygame.font import Font
 
 from code.Const import WIN_WIDTH, COLOR_ORANGE, MENU_OPTION, COLOR_WHITE, COLOR_GREEN, COLOR_YELLOW
 
-
 class Menu:
     def __init__(self, window):
         self.window: Surface = window

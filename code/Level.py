@@ -14,7 +14,6 @@ from code.EntityFactory import EntityFactory
 from code.EntityMediator import EntityMediator
 from code.Player import Player
 
-
 class Level:
     def __init__(self, window, name, menu_option):
         self.window: Surface = window
